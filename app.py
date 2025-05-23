@@ -1,8 +1,7 @@
 import streamlit as st
 from openai import OpenAI
 
-# ✅ Replace with your real API key
-client = OpenAI(api_key="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")  # Use your actual API key here
+client = OpenAI(api_key="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") 
 
 # 🌍 Page title
 st.markdown("<h1 style='text-align: center; color: green;'>🌍 New World AI Guide</h1>", unsafe_allow_html=True)
